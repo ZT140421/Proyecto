@@ -10,4 +10,5 @@ form.addEventListener("submit", function(e){
     localStorage.setItem("apellidos", apellidos)
 
     window.location.replace("../index.html")
+    
 })

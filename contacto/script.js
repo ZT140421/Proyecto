@@ -23,3 +23,6 @@ for (let index = 0; index < inputs.length; index++) {
         label[label.length -1].classList.remove("fijar")
     })
 }
+document.querySelector("#box").addEventListener("submit",()=>{
+    alert("Recomendaciones enviadas")
+})
